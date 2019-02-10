@@ -1,12 +1,146 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en-US">
+
 <head>
-
+    <title>UlricQin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/hugo/css/styles.css">
+    <link rel="stylesheet" href="lib/montserrat/montserrat.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/c.css">
 </head>
-<body>
 
-hello world
+<body class="clearfix">
+    <section id="sidebar" class="sidebar d-flex align-items-center p-5">
+        <div class="main-info">
+            <img src="img/me.png" class="rounded-circle mb-3" width="160px">
+            <h1 class="heading">hey world, i&#39;m <span class="highlight">ulricqin</span></h1>
+            <p class="text-muted" style="font-size: 10px; line-height: 24px;">滴滴云运维负责人，Open-Falcon主程，DINP作者。运维领域摸爬滚打八年，承接IaaS私有云、运维平台搭建维护工作，非诚勿扰：）</p>
+            <div class="social my-4">
+                <a target="_blank" href="img/wechat.png">
+          <i class="fa fa-wechat"></i>
+        </a>
+                <a target="_blank" href="https://www.jianshu.com/u/7271fbdeaac4">
+          <i class="fa fa-wordpress"></i>
+        </a>
+                <a target="_blank" href="https://github.com/UlricQin">
+          <i class="fa fa-github"></i>
+        </a>
+                <a target="_blank" href="img/zsxq.png">
+          <i class="fa fa-comments"></i>
+        </a>
+            </div>
+        </div>
+    </section>
+    <div class="main-content">
 
+        <!-- <section id="skills" class="aqua text-light">
+            <h2 class="heading">Skills</h2>
+            <div class="skill">
+                <span class="h6">Linux</span>
+                <div class="progress">
+                    <div class="progress-bar bg-blue" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="h6">Golang</span>
+                <div class="progress">
+                    <div class="progress-bar bg-blue" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="h6">Open-Falcon</span>
+                <div class="progress">
+                    <div class="progress-bar bg-blue" role="progressbar" style="width: 97%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="h6">Zstack</span>
+                <div class="progress">
+                    <div class="progress-bar bg-blue" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="experience" class="green" style="background-color: #cadfdf;">
+            <h2 class="heading">Experience</h2>
+            <div id="timeline">
+
+            	<div class="timeline-item clearfix">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content  right ">
+                        <span class="date">Jul 2011 - Sep 2013</span>
+                        <h6 class="h3 my-2">Baidu</h6>
+                        <p class="">参与NOAH运维平台的构建工作，先是开发服务树相关、BPM相关，后参与部署系统Archer相关工作</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item clearfix">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content  left ">
+                        <span class="date">Oct 2013 - Apr 2016</span>
+                        <h6 class="h3 my-2">XiaoMi</h6>
+                        <p class="">先期主要是做CloudFoundry相关，搭建xiaomi的PaaS，Docker出来之后，做了DINP这个项目并开源，后来zabbix扛不住压力，转而研发Open-Falcon替换zabbix，实现xiaomi内部监控的大一统</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item clearfix">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content  right ">
+                        <span class="date">May 2016 - Dec 2017</span>
+                        <h6 class="h3 my-2">Ksyun</h6>
+                        <p class="">先期负责内部运维平台构建，产出金山云批量执行工具zeus，负责打磨云监控产品，后转而负责大技术产品部的运维工作，对接云计算、云存储、云网络、云安全等相关产品</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item clearfix">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content left ">
+                        <span class="date">Dec 2017 - Present</span>
+                        <h6 class="h3 my-2">DiDi</h6>
+                        <p class="">负责滴滴云和内部对象存储的运维工作，同时支持私有云建设和运维能力产出输出，开发了滴滴云的super-agent和私有云的运维平台，既做研发、又做运维、还做产品和售前，充实...</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <div style="z-index: 4; position: relative;">
+    </div>
+    <div class="main-content">
+
+        <!-- <section id="contact" class="bg-light d-flex align-items-center" style="height: 100vh;">
+            <div class="container">
+                <h2 class="heading mb-3">Contact</h2>
+                <div class="text-success my-3">
+                </div>
+                <form action="https://formspree.io/ulric.qin@gmail.com" method="post">
+                    <div class="form-row">
+                        <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+                            <label>Name</label>
+                            <input type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="_replyto" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Message" name="message" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+            </div>
+        </section>
+         -->
+    </div>
 </body>
-</html>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="lib/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+<script src="lib/hugo/js/main.js"></script>
 
+</html>
